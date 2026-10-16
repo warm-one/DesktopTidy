@@ -1,0 +1,2 @@
+docs/ 目录:这里放 README 引用的软件截图(screenshot-main.png、screenshot-preview.png),
+截图后放到本目录即可,README 里的占位路径已经写好。
