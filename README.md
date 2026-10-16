@@ -35,7 +35,7 @@
 
 ## 快速开始
 
-需要 Python 3.10+（无第三方依赖时 GUI 需 `pip install customtkinter`，打包用 PyInstaller）：
+本项目在 Python 3.13 下开发与测试。图形界面版需要 `pip install customtkinter pillow`（图标提取用到 pillow），打包需要 `pip install pyinstaller`：
 
 ```bash
 # 命令行版
@@ -83,4 +83,3 @@ python -m pytest tests -q
 - [x] A 方案：移动文件（扫描 / 预览 / 执行 / 撤销）
 - [x] B 方案第一版：图标分区排列（实验性，需关闭系统"自动排列图标"）
 - [ ] B 方案增强：网格布局 / 按类型分区货架自选布局 / 排列撤销
-- [ ] 保守运行时自动检测占用窗口
